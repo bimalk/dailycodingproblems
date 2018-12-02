@@ -16,7 +16,8 @@ namespace Problem_1
             HashSet<int> hashSet = new HashSet<int>();
             for (int i = 0; i < arr.Length; i++)
             {
-                if (hashSet.Contains(result - arr[i])) flag = true;
+                if (hashSet.Contains(result - arr[i]))
+                { flag = true; continue; }
                 hashSet.Add(arr[i]);
             }
             if (flag)
