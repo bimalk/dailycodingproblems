@@ -11,12 +11,12 @@ namespace Problem_1
         static void Main(string[] args)
         {
             int[] arr = Array.ConvertAll(args[0].Split(','), s => int.Parse(s));
-            int result = int.Parse(args[1]);
+            int total = int.Parse(args[1]);
             bool flag = false;
             HashSet<int> hashSet = new HashSet<int>();
             for (int i = 0; i < arr.Length; i++)
             {
-                if (hashSet.Contains(result - arr[i]))
+                if (hashSet.Contains(total - arr[i]))
                 { flag = true; continue; }
                 hashSet.Add(arr[i]);
             }
