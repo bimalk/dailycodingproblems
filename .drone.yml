@@ -1,7 +1,4 @@
 pipeline:
   build:
-    image: windows:latest
-    commands: npm install
-  test:
-    image: node:latest
-    commands: npm run test
+    image: msbuild:latest
+    commands: msbuild
