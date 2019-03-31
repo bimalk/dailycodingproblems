@@ -1,8 +1,8 @@
 kind: pipeline
 name: example-pipeline
 steps:
- -name: build
- image: compulim/msbuild
+ -name: test
+ image: mcr.microsoft.com/dotnet/framework/sdk:4.7.2
  commands:
    
  when:
