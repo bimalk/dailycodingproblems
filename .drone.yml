@@ -1,4 +1,4 @@
 pipeline:
   build:
-    image: msbuild:latest
+    image: didstopia/msbuild:latest
     commands: msbuild
