@@ -1,7 +1,7 @@
 kind: pipeline
 name: example-pipeline
 steps:
- -name: msbuild
+ -name: build
  image: compulim/msbuild
  commands:
    
