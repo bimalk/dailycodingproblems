@@ -14,15 +14,13 @@ namespace Problem_2
 
             int[] result = new int[arr.Length];
 
-            int Product = arr.Aggregate(1, (a, b) => a * b);
-
-            for(int i=0;i< arr.Length; i++)
+            for (int i = 0; i < arr.Length; i++)
             {
                 //result[i] = Product / arr[i];
-                result[i] = arr.Where(s=> s!= arr[i]).Aggregate(1, (a, b) => a * b);
+                result[i] = arr.Where(s => s != arr[i]).Aggregate(1, (a, b) => a * b);
             }
 
-            Console.WriteLine(string.Join(",",result));
+            Console.WriteLine(string.Join(",", result));
 
             Console.ReadKey();
         }
