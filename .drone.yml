@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: node:latest
+    image: windows:latest
     commands: npm install
   test:
     image: node:latest
