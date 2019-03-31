@@ -13,6 +13,7 @@ namespace Problem_1
             int[] arr = Array.ConvertAll(args[0].Split(','), s => int.Parse(s));
             int total = int.Parse(args[1]);
             bool flag = false;
+            //HashSet to Add numbers
             HashSet<int> hashSet = new HashSet<int>();
             for (int i = 0; i < arr.Length; i++)
             {
