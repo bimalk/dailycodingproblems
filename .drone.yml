@@ -1,4 +1,4 @@
 pipeline:
   build:
     image: didstopia/msbuild:latest
-    commands: msbuild
+    commands: msbuild.exe dailycodingproblems.sln
