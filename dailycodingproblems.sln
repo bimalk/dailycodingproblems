@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem-1", "dailycodingpro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem-2", "dailycodingproblems\Problem-2\Problem-2.csproj", "{5AB8EC15-7EDB-4AFF-80C3-3C2F7E7723DC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{74A1646E-BBA7-4EFC-A902-2F4CF7C98EB6}"
+	ProjectSection(SolutionItems) = preProject
+		.drone.yml = .drone.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
