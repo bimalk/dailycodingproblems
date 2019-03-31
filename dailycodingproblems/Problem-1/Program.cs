@@ -24,11 +24,11 @@ namespace Problem_1
             }
             if (flag)
             {
-                Console.WriteLine("Present");
+                Console.WriteLine("Present.");
             }
             else
             {
-                Console.WriteLine("Not Present");
+                Console.WriteLine("Not Present.");
             }
         }
     }
