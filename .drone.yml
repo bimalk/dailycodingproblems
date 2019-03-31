@@ -1,13 +1,7 @@
-kind: pipeline
-name: example-pipeline
-steps:
- -name: test
- image: mcr.microsoft.com/dotnet/framework/sdk:4.7.2
- commands:
-   
- when:
- branch:
- - master
- event:
- - push
- - pull-request
+pipeline:
+  build:
+    image: node:latest
+    commands: npm install
+  test:
+    image: node:latest
+    commands: npm run test
