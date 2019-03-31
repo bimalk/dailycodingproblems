@@ -10,6 +10,7 @@ namespace Problem_1
     {
         static void Main(string[] args)
         {
+            //Get args into arrays
             int[] arr = Array.ConvertAll(args[0].Split(','), s => int.Parse(s));
             int total = int.Parse(args[1]);
             bool flag = false;
